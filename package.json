@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-day5",
+  "version": "1.0.0",
+  "description": "nodejs-day5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwork989/nodejs-day5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwork989/nodejs-day5/issues"
+  },
+  "homepage": "https://github.com/mwork989/nodejs-day5#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongodb": "^4.13.0",
+    "nodemon": "^2.0.21"
+  }
+}
