@@ -1,0 +1,12 @@
+POST http://localhost:4002/addOrderDetails
+content-type: application/json
+
+{
+    "item": "KFC  chicken pop corn",
+    "price": 199,
+    "restaurant":"KFC3"
+}
+
+###
+
+GET http://localhost:4002/getOrderDetails

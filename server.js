@@ -124,3 +124,10 @@ app.put("/updateOrderDetails", (request, response) => {
 app.listen(port, () => {
   console.log("server started on port ", port);
 });
+
+// http status
+
+// 1.200 304
+// 2. 409 404  client side related issues
+// 3. 503 505 backend code related issues
+// DRY - do not repeat yourself in program
